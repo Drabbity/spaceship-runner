@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -37,7 +35,6 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         AssignPreFrameValues();
-        GatherInput();
 
         CalculateRun();
         CalculateGravity();
@@ -51,10 +48,7 @@ public class PlayerController : MonoBehaviour
     private void AssignPreFrameValues()
     {
         _isGrounded = IsGrounded();
-    }
-    private void GatherInput()
-    {
-        _hasJumpInput = Input.GetKey(KeyCode.Space);
+        _hasJumpInput = InputManager.Instance.IsKeyHolded("Jump");
     }
     private void CalculateRun()
     {

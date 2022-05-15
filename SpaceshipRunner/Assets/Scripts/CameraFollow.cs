@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
@@ -7,7 +5,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private GameObject _target;
     [SerializeField] private Vector3 _followDirections;
     [SerializeField] private Vector3 _offsets;
-
+    
     private Vector3 _newPosition;
 
     private void Update()
