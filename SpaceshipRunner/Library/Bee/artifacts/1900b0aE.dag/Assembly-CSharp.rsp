@@ -371,6 +371,7 @@
 "Assets/Scripts/Bootstrapper.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/InputManager.cs"
+"Assets/Scripts/PlatformGenerator.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Singleton.cs"
 -langversion:9.0
