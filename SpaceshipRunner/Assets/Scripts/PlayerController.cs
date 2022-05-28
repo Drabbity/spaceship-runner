@@ -21,26 +21,34 @@ public class PlayerController : MonoBehaviour
     private bool _hasJumpInput = false;
     private bool _hasFlipInput = false;
 
+    public float Multiplier = 1f;
     private Vector2 _velocity = default;
     private float _jumpTime = 0f;
-    private float _multiplier = 1f;
     private bool _isJumping = false;
     private bool _isGrounded = true;
-    
+
+    public bool IsFlipped { private set; get; }
     private Vector3 _flipPosition = default;
-    private Quaternion _flipRotation = default;
-    private bool _isFlipped = false;
+    private Quaternion _flipRotation = default; 
     private int _flipMultiplier = 1;
+
+    private bool _isDead = false;
 
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _collider = GetComponent<BoxCollider2D>();
         _animator = GetComponent<Animator>();
+
+        GameManager.Instance.GameLost += Die;
+
+        IsFlipped = false;
     }
 
     private void Update()
     {
+        if (_isDead) return;
+
         AssignPreFrameValues();
 
         CalculateRun();
@@ -61,13 +69,13 @@ public class PlayerController : MonoBehaviour
     }
     private void CalculateRun()
     {
-        _velocity.x = _speed * _multiplier;
+        _velocity.x = _speed * Multiplier;
     }
     private void CalculateGravity()
     {
         if(!_isGrounded)
         {
-            _velocity.y -= _gravity * Time.deltaTime * _multiplier * _flipMultiplier;
+            _velocity.y -= _gravity * Time.deltaTime * Multiplier * _flipMultiplier;
         }
         else
         {
@@ -81,12 +89,12 @@ public class PlayerController : MonoBehaviour
         {
             _isJumping = true;
             _jumpTime = 0f;
-            _velocity.y = _jumpForce * _multiplier * _flipMultiplier;
+            _velocity.y = _jumpForce * Multiplier * _flipMultiplier;
         }
         else if(!_isGrounded && _hasJumpInput && _jumpTime < _allowedJumpTime && _isJumping)
         {
-            _jumpTime += Time.deltaTime * _multiplier;
-            _velocity.y = _jumpForce * _multiplier * _flipMultiplier;
+            _jumpTime += Time.deltaTime * Multiplier;
+            _velocity.y = _jumpForce * Multiplier * _flipMultiplier;
         }
         else if(!_isGrounded && !_hasJumpInput)
         {
@@ -99,7 +107,7 @@ public class PlayerController : MonoBehaviour
         {
             CalculateFlipPosition();
             CalculateFlipRotation();
-            _isFlipped = !_isFlipped;
+            IsFlipped = !IsFlipped;
             _flipMultiplier *= -1;
         }
     }
@@ -114,7 +122,7 @@ public class PlayerController : MonoBehaviour
     private void CalculateFlipRotation()
     {
         _flipRotation = transform.rotation;
-        _flipRotation.x = 180f * (_isFlipped ? 0 : 1);
+        _flipRotation.x = 180f * (IsFlipped ? 0 : 1);
     }
 
     private void SetAnimations()
@@ -133,9 +141,9 @@ public class PlayerController : MonoBehaviour
     }
     private void AcceleratePlayer()
     {
-        if (_multiplier < _maximumSpeedMultiplier)
+        if (Multiplier < _maximumSpeedMultiplier)
         {
-            _multiplier += _acceleration * Time.deltaTime;
+            Multiplier += _acceleration * Time.deltaTime;
         }
     }
 
@@ -146,6 +154,12 @@ public class PlayerController : MonoBehaviour
 
     private RaycastHit2D GetGround(float distance)
     {
-        return Physics2D.BoxCast(_collider.bounds.center, _collider.bounds.size, 0, (_isFlipped ? Vector2.up : Vector2.down), distance, _groundMask);
+        return Physics2D.BoxCast(_collider.bounds.center, _collider.bounds.size, 0, (IsFlipped ? Vector2.up : Vector2.down), distance, _groundMask);
     }
+
+    private void Die()
+    {
+        _isDead = true;
+        _rigidbody.velocity = Vector3.zero;
+    }    
 }
