@@ -209,6 +209,9 @@ MonoBehaviour:
   _maxPlatformGap: 3
   _maxPlatformYPosition: 2
   _minPlatformYPosition: -2
+  _spikes:
+  - {fileID: 583132783174699209, guid: eaaa51188b639824882b8c5ec99c08ff, type: 3}
+  _spikeFrequency: 0.1
 --- !u!1 &366797162
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,7 +381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
-  _acceleration: 0.007
+  _acceleration: 0.01
   _maximumSpeedMultiplier: 1.5
   _groundedDistance: 0.05
   _jumpForce: 5
@@ -402,7 +405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _obstacleMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   _boxCastDistance: 0.05
 --- !u!1 &519420028
 GameObject:

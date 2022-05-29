@@ -12,6 +12,5 @@ public class GameManager : Singleton<GameManager>
 
         GameLost?.Invoke();
         _isGameLost = true;
-        print("y");
     }
 }

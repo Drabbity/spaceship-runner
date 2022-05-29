@@ -61,9 +61,9 @@ public abstract class XAxisGenerator : MonoBehaviour
         return false;
     }
 
-    private void PlaceNextPrefab()
+    protected virtual void PlaceNextPrefab()
     {
-        GameObject prefabToSpawn = GetRandomPrefab();
+        GameObject prefabToSpawn = GetRandomPrefab(PrefabsToGenerate);
         Vector3 prefabToSpawnPosition = CalculateNextPrefabSpawnPosition(prefabToSpawn);
 
         LastSpawnedPrefab = Instantiate(prefabToSpawn, prefabToSpawnPosition, Quaternion.identity);
@@ -71,8 +71,8 @@ public abstract class XAxisGenerator : MonoBehaviour
 
     protected abstract Vector3 CalculateNextPrefabSpawnPosition(GameObject prefabToSpawn);
 
-    private GameObject GetRandomPrefab()
+    protected GameObject GetRandomPrefab(GameObject[] prefabs)
     {
-        return PrefabsToGenerate[Random.Range(0, PrefabsToGenerate.Length)];
+        return prefabs[Random.Range(0, prefabs.Length)];
     }
 }

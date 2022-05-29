@@ -39,6 +39,6 @@ public class PlayerLife : MonoBehaviour
 
     private bool HasHitObstacle()
     {
-        return Physics2D.BoxCast(_collider.bounds.center, _collider.bounds.size / 2, 0, (_playerController.IsFlipped ? Vector2.up : Vector2.down), _boxCastDistance, _obstacleMask).collider;
+        return Physics2D.BoxCast(_collider.bounds.center, _collider.bounds.size, 0, (_playerController.IsFlipped ? Vector2.up : Vector2.down), _boxCastDistance, _obstacleMask).collider;
     }
 }
