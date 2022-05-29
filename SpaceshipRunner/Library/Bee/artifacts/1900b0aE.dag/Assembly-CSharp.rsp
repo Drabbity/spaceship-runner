@@ -374,9 +374,11 @@
 "Assets/Scripts/DestroyByDistance.cs"
 "Assets/Scripts/Game/GameManager.cs"
 "Assets/Scripts/InputManager.cs"
+"Assets/Scripts/MenuVirtualPlayer.cs"
 "Assets/Scripts/PlatformGenerator.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerLife.cs"
+"Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/Singleton.cs"
 "Assets/Scripts/XAxisGenerator.cs"
 -langversion:9.0

@@ -51,7 +51,7 @@ public class PlatformGenerator : XAxisGenerator
 
             if (!HasOverlap(spawnedSpikes, spikePrefab, prefabSpawnPosition.x))
             {
-                var spawnedSpike = Instantiate(spikePrefab, prefabSpawnPosition, Quaternion.Euler(new Vector3(0, 0, isFlipped ? 180 : 0)));
+                var spawnedSpike = Instantiate(spikePrefab, prefabSpawnPosition, Quaternion.Euler(new Vector3(0, 0, isFlipped ? 180 : 0)), platform.transform);
                 spawnedSpikes.Add(spawnedSpike);
             }
         }
