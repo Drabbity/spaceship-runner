@@ -13,4 +13,9 @@ public class GameManager : Singleton<GameManager>
         GameLost?.Invoke();
         _isGameLost = true;
     }
+
+    public void SceneChanged()
+    {
+        _isGameLost = false;
+    }
 }

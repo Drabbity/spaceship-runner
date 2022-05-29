@@ -371,6 +371,7 @@
 "Assets/Scripts/BackgroundSpawner.cs"
 "Assets/Scripts/Bootstrapper.cs"
 "Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/DeathScreen.cs"
 "Assets/Scripts/DestroyByDistance.cs"
 "Assets/Scripts/Game/GameManager.cs"
 "Assets/Scripts/InputManager.cs"

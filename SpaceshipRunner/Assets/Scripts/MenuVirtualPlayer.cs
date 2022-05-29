@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MenuVirtualPlayer : MonoBehaviour
 {
-    [SerializeField] float speed = 2;
+    [SerializeField] private float _speed = 2;
 
     private void Update()
     {
@@ -11,6 +11,6 @@ public class MenuVirtualPlayer : MonoBehaviour
 
     private void MoveForward()
     {
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        transform.Translate(Vector3.right * _speed * Time.deltaTime);
     }
 }
