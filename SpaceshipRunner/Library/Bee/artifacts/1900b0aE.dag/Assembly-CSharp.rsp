@@ -381,6 +381,8 @@
 "Assets/Scripts/PlatformGenerator.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerLife.cs"
+"Assets/Scripts/ScoreCounter.cs"
+"Assets/Scripts/ScorePrinter.cs"
 "Assets/Scripts/Singleton.cs"
 "Assets/Scripts/XAxisGenerator.cs"
 -langversion:9.0

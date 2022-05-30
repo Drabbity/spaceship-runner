@@ -5,6 +5,7 @@ using UnityEngine;
 public class DeathScreen : MonoBehaviour
 {
     [SerializeField] private GameObject _deathScreen;
+    [SerializeField] private GameObject _scoreHolder;
 
     private void Start()
     {
@@ -14,6 +15,7 @@ public class DeathScreen : MonoBehaviour
     public void OpenDeathScreen()
     {
         _deathScreen.SetActive(true);
+        _scoreHolder.SetActive(false);
         GameManager.Instance.GameLost -= OpenDeathScreen;
     }
 }

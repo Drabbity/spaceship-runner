@@ -6,6 +6,7 @@ public class GameManager : Singleton<GameManager>
 {
     public event Action GameLost;
     private bool _isGameLost = false;
+    public int Score { get; private set; }
 
     public void PlayerDied()
     {
@@ -19,5 +20,10 @@ public class GameManager : Singleton<GameManager>
     {
         _isGameLost = false;
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void UpdateScore(int score)
+    {
+        Score = score;
     }
 }
