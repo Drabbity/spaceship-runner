@@ -85,18 +85,19 @@ public class PlayerController : MonoBehaviour
 
     private void CalculateJump()
     {
-        if(_isGrounded && _hasJumpInput)
+        if(_isGrounded && _hasJumpInput && !_isJumping)
         {
             _isJumping = true;
             _jumpTime = 0f;
             _velocity.y = _jumpForce * Multiplier * _flipMultiplier;
+            AudioManager.Instance.PlaySfx(SoundType.Jump);
         }
-        else if(!_isGrounded && _hasJumpInput && _jumpTime < _allowedJumpTime && _isJumping)
+        else if(_hasJumpInput && _jumpTime < _allowedJumpTime && _isJumping)
         {
             _jumpTime += Time.deltaTime * Multiplier;
             _velocity.y = _jumpForce * Multiplier * _flipMultiplier;
         }
-        else if(!_isGrounded && !_hasJumpInput)
+        else if(!_hasJumpInput)
         {
             _isJumping = false;
         }
@@ -133,6 +134,7 @@ public class PlayerController : MonoBehaviour
     {
         if (_hasFlipInput && _isGrounded && !_isJumping)
         {
+            AudioManager.Instance.PlaySfx(SoundType.Flip);
             transform.position = _flipPosition;
             transform.rotation = _flipRotation;
         }
@@ -163,5 +165,6 @@ public class PlayerController : MonoBehaviour
         _rigidbody.velocity = Vector3.zero;
         _animator.SetBool("IsGrounded", false);
         GameManager.Instance.GameLost -= Die;
+        AudioManager.Instance.PlaySfx(SoundType.Death);
     }
 }

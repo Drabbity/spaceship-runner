@@ -368,8 +368,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/BackgroundSpawner.cs"
 "Assets/Scripts/Bootstrapper.cs"
+"Assets/Scripts/ButtonOnClick.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/DeathScreen.cs"
 "Assets/Scripts/DestroyByDistance.cs"
@@ -379,7 +381,6 @@
 "Assets/Scripts/PlatformGenerator.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerLife.cs"
-"Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/Singleton.cs"
 "Assets/Scripts/XAxisGenerator.cs"
 -langversion:9.0

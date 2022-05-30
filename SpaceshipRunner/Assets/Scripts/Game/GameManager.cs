@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -14,8 +15,9 @@ public class GameManager : Singleton<GameManager>
         _isGameLost = true;
     }
 
-    public void SceneChanged()
+    public void LoadScene(string sceneName)
     {
         _isGameLost = false;
+        SceneManager.LoadScene(sceneName);
     }
 }
