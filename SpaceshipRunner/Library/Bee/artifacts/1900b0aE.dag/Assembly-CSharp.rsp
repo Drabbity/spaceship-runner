@@ -370,6 +370,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/BackgroundSpawner.cs"
+"Assets/Scripts/Blink.cs"
 "Assets/Scripts/Bootstrapper.cs"
 "Assets/Scripts/ButtonOnClick.cs"
 "Assets/Scripts/CameraFollow.cs"

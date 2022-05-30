@@ -15,7 +15,7 @@ C:/Users/alexa/Documents/spaceship-runner/SpaceshipRunner
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53719
+63720
 Successfully changed project path to: C:/Users/alexa/Documents/spaceship-runner/SpaceshipRunner
 C:/Users/alexa/Documents/spaceship-runner/SpaceshipRunner
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/alexa/Documents/spaceship-runner/SpaceshipRunner
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 104.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007709 seconds.
+Registered in 0.007446 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 90.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 98.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
+- Completed reload, in  0.635 seconds
 Domain Reload Profiling:
-	ReloadAssembly (672ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (635ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (492ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (474ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (282ms)
+			SetupLoadedEditorAssemblies (287ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (99ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008882 seconds.
+Registered in 0.008799 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\alexa\Documents\spaceship-runner\SpaceshipRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\alexa\Documents\spaceship-runner\SpaceshipRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 104.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 93.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.237 seconds
+- Completed reload, in  1.678 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2238ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (1679ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1988ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1452ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (1397ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1002ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (1091ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (750ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3928 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (225.6 KB). Loaded Objects now: 4379.
+Unloading 3929 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (225.6 KB). Loaded Objects now: 4380.
 Memory consumption went from 149.4 MB to 149.2 MB.
-Total: 6.042700 ms (FindLiveObjects: 0.484400 ms CreateObjectMapping: 0.436600 ms MarkObjects: 4.859200 ms  DeleteObjects: 0.261300 ms)
+Total: 3.460000 ms (FindLiveObjects: 0.322100 ms CreateObjectMapping: 0.256300 ms MarkObjects: 2.730100 ms  DeleteObjects: 0.150400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,73 +159,117 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17589.636145 seconds.
-  path: Assets/Scripts/ScoreCounter.cs
-  artifactKey: Guid(3f2e2561caf3a2547bc8b01792134543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScoreCounter.cs using Guid(3f2e2561caf3a2547bc8b01792134543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616498e45a08df566419610d4d2a2560') in 0.094621 seconds 
+  Time since last request: 18901.008928 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9cb3ae3cccc9d76448304872e3272407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9cb3ae3cccc9d76448304872e3272407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d9243631f385d90b9944d8dc12b0d2') in 0.019251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.847781 seconds.
-  path: Assets/Scripts/ScoreCounter.cs
-  artifactKey: Guid(3f2e2561caf3a2547bc8b01792134543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScoreCounter.cs using Guid(3f2e2561caf3a2547bc8b01792134543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881d25f081575ab0bdc877e88eb0a308') in 0.007178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.433665 seconds.
-  path: Assets/Scripts/ScoreCounter.cs
-  artifactKey: Guid(3f2e2561caf3a2547bc8b01792134543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScoreCounter.cs using Guid(3f2e2561caf3a2547bc8b01792134543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20de17387f4f1ba94d5b53ef10d1dc4') in 0.007507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.769675 seconds.
-  path: Assets/Scripts/ScoreCounter.cs
-  artifactKey: Guid(3f2e2561caf3a2547bc8b01792134543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScoreCounter.cs using Guid(3f2e2561caf3a2547bc8b01792134543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f7492d16e4fe77bd9ba2f4634f285b') in 0.008027 seconds 
+  Time since last request: 31.610643 seconds.
+  path: Assets/Scripts/BlinkingButton.cs
+  artifactKey: Guid(43bfee48102f8d14a92362bdeb29983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BlinkingButton.cs using Guid(43bfee48102f8d14a92362bdeb29983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80662a86f613c7ca064f9924a0b251fa') in 0.067416 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008086 seconds.
+Registered in 0.008900 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\alexa\Documents\spaceship-runner\SpaceshipRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\alexa\Documents\spaceship-runner\SpaceshipRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.137 seconds
+- Completed reload, in  1.080 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1138ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (885ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (459ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (192.3 KB). Loaded Objects now: 4383.
+Memory consumption went from 148.1 MB to 147.9 MB.
+Total: 3.274800 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.242300 ms MarkObjects: 2.592900 ms  DeleteObjects: 0.126700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008386 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\alexa\Documents\spaceship-runner\SpaceshipRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alexa\Documents\spaceship-runner\SpaceshipRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1109ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (445ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (325ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3910 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (192.4 KB). Loaded Objects now: 4381.
+Unloading 3911 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (192.5 KB). Loaded Objects now: 4384.
 Memory consumption went from 148.1 MB to 147.9 MB.
-Total: 4.032000 ms (FindLiveObjects: 0.369300 ms CreateObjectMapping: 0.279200 ms MarkObjects: 3.238800 ms  DeleteObjects: 0.143200 ms)
+Total: 3.341800 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.235700 ms MarkObjects: 2.689900 ms  DeleteObjects: 0.123600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -239,13 +283,142 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 81.459055 seconds.
-  path: Assets/Scripts/ScorePrinter.cs
-  artifactKey: Guid(4a462eaa8f3218f4fad64022edd7035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScorePrinter.cs using Guid(4a462eaa8f3218f4fad64022edd7035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6bf89048803e0e9a315f936405e5f8') in 0.011408 seconds 
+  Time since last request: 31.704200 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6ce7c26e682417475d575ba346b4ac') in 0.009104 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.972790 seconds.
-  path: Assets/Fonts/PixelFont SDF.asset
-  artifactKey: Guid(c76d6234d5aced947b4601b1c16d7dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/PixelFont SDF.asset using Guid(c76d6234d5aced947b4601b1c16d7dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d428b3ec18e445ed641c256d2b54e36') in 0.140085 seconds 
+  Time since last request: 67.893246 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001181 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:07:07.3123318Z' while content on disk has modification time of '2022-05-30T18:07:07.5347103Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:07:07.3123318Z' while content on disk has modification time of '2022-05-30T18:07:07.5347103Z'
+========================================================================
+Received Import Request.
+  Time since last request: 2.842388 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44481084e62188f01009bdd0761cffe6') in 0.008282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.024478 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000648 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:07:17.2335688Z' while content on disk has modification time of '2022-05-30T18:07:17.4260535Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:07:17.2335688Z' while content on disk has modification time of '2022-05-30T18:07:17.4260535Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.460140 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f776ed7cfc8b3a92eb62ab3dae30dfec') in 0.005129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.441189 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925ee7fe23d0f2b14a524beb43a06500') in 0.006530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.828471 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e19266bba87415058cd3bdf4a088f50') in 0.010924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.155303 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000772 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:09:52.1620926Z' while content on disk has modification time of '2022-05-30T18:09:52.357569Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:09:52.1620926Z' while content on disk has modification time of '2022-05-30T18:09:52.357569Z'
+========================================================================
+Received Import Request.
+  Time since last request: 7.117950 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c48fe7af0788fd796514edc5d8f1a5') in 0.005174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208190 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f6d0b9dd6becc5a91b33101c7abb6e') in 0.004968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.014415 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaacb5f4b39c7b9a3b20ea8bf9704772') in 0.005443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.148810 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000410 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:10:22.7045724Z' while content on disk has modification time of '2022-05-30T18:10:22.9060313Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:10:22.7045724Z' while content on disk has modification time of '2022-05-30T18:10:22.9060313Z'
+========================================================================
+Received Import Request.
+  Time since last request: 25.424980 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000446 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:10:48.1402485Z' while content on disk has modification time of '2022-05-30T18:10:48.3177742Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:10:48.1402485Z' while content on disk has modification time of '2022-05-30T18:10:48.3177742Z'
+========================================================================
+Received Import Request.
+  Time since last request: 5.893441 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5697de413c105a61bd1f06937cd35049') in 0.005348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.976583 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000362 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:11:16.0243759Z' while content on disk has modification time of '2022-05-30T18:11:16.2078862Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:11:16.0243759Z' while content on disk has modification time of '2022-05-30T18:11:16.2078862Z'
+========================================================================
+Received Import Request.
+  Time since last request: 20.783463 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d5bfdf1a1505011b367f8f619e0b55') in 0.010877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.482111 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000441 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:12:05.305181Z' while content on disk has modification time of '2022-05-30T18:12:05.4976674Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:12:05.305181Z' while content on disk has modification time of '2022-05-30T18:12:05.4976674Z'
+========================================================================
+Received Import Request.
+  Time since last request: 19.918151 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcee7a6309329fa734c0fe643af9591') in 0.007561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.363272 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c362ca5a82ff77900f9489ff3c6765cf') in 0.005053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.170825 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178766c1676aba880d38fb11410b14aa') in 0.005589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.638805 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:12:58.4617408Z' while content on disk has modification time of '2022-05-30T18:12:58.6512343Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:12:58.4617408Z' while content on disk has modification time of '2022-05-30T18:12:58.6512343Z'
+========================================================================
+Received Import Request.
+  Time since last request: 3.027432 seconds.
+  path: Assets/Scripts/Blink.cs
+  artifactKey: Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Blink.cs using Guid(8e08408e0cfaf294bb443df85ababe8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001237 seconds  code(4) message(Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:13:01.5119125Z' while content on disk has modification time of '2022-05-30T18:13:01.6916233Z')
+  ERROR: Build asset version error: assets/scripts/blink.cs in SourceAssetDB has modification time of '2022-05-30T18:13:01.5119125Z' while content on disk has modification time of '2022-05-30T18:13:01.6916233Z'
