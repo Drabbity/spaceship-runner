@@ -14,5 +14,6 @@ public class DeathScreen : MonoBehaviour
     public void OpenDeathScreen()
     {
         _deathScreen.SetActive(true);
+        GameManager.Instance.GameLost -= OpenDeathScreen;
     }
 }

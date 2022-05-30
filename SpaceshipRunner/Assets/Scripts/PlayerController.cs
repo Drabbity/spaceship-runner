@@ -162,5 +162,6 @@ public class PlayerController : MonoBehaviour
         _isDead = true;
         _rigidbody.velocity = Vector3.zero;
         _animator.SetBool("IsGrounded", false);
-    }    
+        GameManager.Instance.GameLost -= Die;
+    }
 }

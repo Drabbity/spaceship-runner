@@ -4,6 +4,8 @@ public class PlayerLife : MonoBehaviour
 {
     [SerializeField] private LayerMask _obstacleMask;
     [SerializeField] private float _boxCastDistance = 0.05f;
+    [SerializeField] private float minYPosition = -6;
+    [SerializeField] private float maxYPosition = 6;
     
     private PlayerController _playerController;
     private BoxCollider2D _collider;  
@@ -19,7 +21,7 @@ public class PlayerLife : MonoBehaviour
 
     private void FixedUpdate()
     {  
-        if (!IsAlive())
+        if (IsDead())
         {
             GameManager.Instance.PlayerDied();
         }
@@ -27,9 +29,9 @@ public class PlayerLife : MonoBehaviour
         _timer += Time.fixedDeltaTime;
     }
 
-    private bool IsAlive()
+    private bool IsDead()
     {
-        return !(IsStuck() || HasHitObstacle());
+        return (IsStuck() || HasHitObstacle() || HasFallenOff());
     }
 
     private bool IsStuck()
@@ -40,5 +42,10 @@ public class PlayerLife : MonoBehaviour
     private bool HasHitObstacle()
     {
         return Physics2D.BoxCast(_collider.bounds.center, _collider.bounds.size, 0, (_playerController.IsFlipped ? Vector2.up : Vector2.down), _boxCastDistance, _obstacleMask).collider;
+    }
+
+    private bool HasFallenOff()
+    {
+        return (transform.position.y < minYPosition || transform.position.y > maxYPosition);
     }
 }
